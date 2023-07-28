@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 100;
+    font-size: 3.2em;
+    padding: 10px 0px;
+    margin: 0px 20px;  
+    border-radius: 10px;     
+}
+
+#st{
+    margin-top: 20px;
+    font-size: 1.5em;
+    margin-top: 70px;
+    color: aliceblue;
+}
+
+.title,#st{
+    display:block;
+}
+
+.quotes{
+    color: black;
+}
+
+.midsec{
+    margin-top: 50px;
+}
+
+#minutes,
+#seconds,
+#tens {
+    font-size: 2.5em;
+}
+
+#minutes {
+    color: orange;
+}
+
+#seconds {
+    color: white;
+}
+
+#tens {
+    color: green;
+}
+
+button {
+    border: solid 1px white;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    outline: none;
+    color: #090909;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+    transform: scale(1);
+    transform-origin: center;
+}
+
+button:hover {
+    border: 2px solid black;
+    transform: scale(1.05);
+}
+  
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.foot{
+    font: 10 bolder;
+}
